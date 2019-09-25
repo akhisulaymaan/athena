@@ -1,0 +1,166 @@
+header{
+    background-color: white;
+    height: 400px;
+    width: auto;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+header .logo{
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    text-indent: -99999999px;
+    width: 300px;
+    position: relative;
+    top: -10px;
+}
+
+header .inside{
+    width: 50%;
+    margin: 0;
+    font: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+
+header .btn1{
+    background-color: white;
+    border-radius: 100px;
+    border-style: solid;
+    padding: 5px 10px;
+    text-align: end;
+    outline-color: fb0000;
+}
+
+header .btn2{
+    background-color: 21550f;
+    border-radius: 100px;
+    border-style: solid;
+    padding: 5px 10px;
+}
+
+header .btn3{
+    background-color: 21550f;
+    border-radius: 100px;
+    border-style: solid;
+    padding: 10px 15px;
+    text-align: end;
+    display: inline-block;
+    float: right;
+    color: fb0000;
+  
+}
+
+header .beside{
+    position: absolute;
+    right: 50px;
+    top: 90px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.btn1, .btn2, .how, .about, h3{
+    color: fb0000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.one{
+    width: auto;
+    height: 750px;
+    background-color: 651010;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+section .create{
+    position: absolute;
+    
+    
+}
+
+section .track{
+    position: absolute;
+    left: 550px;
+    right: 0px;
+    bottom: -500px;
+    
+}
+
+section .todo{
+    position: absolute;
+    right: 50px;
+    
+}
+
+.two{
+    background-color: aliceblue;
+    height: 500px;
+    width: auto;
+}
+
+section .btn4{
+    background-color: 21550f;
+    border-radius: 100px;
+    border-style: solid;
+    padding: 10px 15px;
+    text-align: end;
+    display: inline-block;
+    position: absolute;
+    left: 650px;
+    color: fb0000;
+
+}
+
+section .way{
+    width: 50%;
+    margin: 0;
+    font: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    bottom:-800px;
+}
+
+section .avatar{
+    position: absolute;
+    right: 100px;
+    
+}
+ 
+footer{
+    height: 250;
+    background-color: 651010;
+    top: 200
+
+}
+
+.kick-ins-container {
+    width: auto;
+    display: flex;
+}
+
+.kick-in{
+    padding: 20px;
+    margin-right: 20px;
+    flex: 1;
+    padding: 20px;
+}
+
+p, marquee{
+    color: white
+}
+
+marquee
